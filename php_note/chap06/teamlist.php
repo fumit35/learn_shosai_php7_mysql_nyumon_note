@@ -5,6 +5,7 @@ $teamB = ["江藤幸代","小野幸子"];
 //チームメンバーの名前をリスト表示する
 function teamList($teamname,$namelist){
   echo "{$teamname}" ,"\n";
+  //上記変数を{}でくくる理由
   echo "<ol>","\n";
   for($i = 0; $i<count($namelist);$i++){
     echo "<li>",$namelist[$i],"</li>\n";
